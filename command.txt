@@ -1,0 +1,5 @@
+(x64 빌드)
+dotnet publish -c Release -r win-x64
+
+(x86 빌드)
+dotnet publish -c Release -r win-x86
