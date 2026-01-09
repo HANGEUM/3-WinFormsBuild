@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    <!-- 단일 -->
+    <PublishSingleFile>true</PublishSingleFile>
+
+    <!-- 런타임 -->
+    <SelfContained>true</SelfContained>
+
+    <!-- 압축 -->
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+
+    <!--PBR 제거하기-->
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+
+    <!--콘솔숨김-->
+    <DisableWinExeOutputInference>true</DisableWinExeOutputInference>
+
+    <!-- 아이콘 -->
+    <ApplicationIcon>app.ico</ApplicationIcon>
+  </PropertyGroup>
+
+</Project>
